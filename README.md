@@ -24,8 +24,3 @@ Before you can run the script, you need to install the following components:
 3. Requests Library: The script uses the requests library to make HTTP requests. You can install the library by running pip install requests.
 4. Socks Library: The script uses the Socks library to connect to the Tor network. You can install the Socks library by running pip install PySocks.
 Once you have installed all these components, you should be able to run the script and make anonymous requests through the Tor network.
-
-
-#Note
-
-Keep in mind that while this script allows you to send requests through the Tor network, it does not guarantee complete anonymity. The Tor network provides some level of anonymity, but it is not foolproof. Use caution and always be aware of your online privacy and security when using this script.

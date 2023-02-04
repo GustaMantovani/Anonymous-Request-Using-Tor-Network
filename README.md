@@ -21,6 +21,6 @@ To run the script, you need to have a local Tor instance running on the same mac
 Before you can run the script, you need to install the following components:
 1. Tor Network: You can download the Tor software from torproject.org. Once you have installed the software, make sure to start the local Tor instance.
 2. Obfs4proxy: Obfs4proxy is a tool used to scramble the data sent through the Tor network. You can find more information on how to install obfs4proxy on torproject.org.
-3. Requests Library: The script uses the requests library to make HTTP requests. You can install the library by running pip install requests.
-4. Socks Library: The script uses the Socks library to connect to the Tor network. You can install the Socks library by running pip install PySocks.
+3. Requests Library: The script uses the requests library to make HTTP requests. You can install the library by running 'pip install requests'.
+4. Socks Library: The script uses the Socks library to connect to the Tor network. You can install the Socks library by running 'pip install PySocks'.
 Once you have installed all these components, you should be able to run the script and make anonymous requests through the Tor network.

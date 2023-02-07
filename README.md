@@ -23,4 +23,8 @@ Before you can run the script, you need to install the following components:
 2. Obfs4proxy: Obfs4proxy is a tool used to scramble the data sent through the Tor network. You can find more information on how to install obfs4proxy on torproject.org.
 3. Requests Library: The script uses the requests library to make HTTP requests. You can install the library by running 'pip install requests'.
 4. Socks Library: The script uses the Socks library to connect to the Tor network. You can install the Socks library by running 'pip install PySocks'.
+
+Additionally, here is a tutorial on how to install Tor and Obfs4proxy: https://community.torproject.org/relay/setup/bridge/archlinux/. The torrc configuration file is also included in this GitHub repository and should be saved in '/etc/tor/'.
+
 Once you have installed all these components, you should be able to run the script and make anonymous requests through the Tor network.
+

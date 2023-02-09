@@ -2,7 +2,6 @@ import requests
 
 session = requests.session()
 session.proxies = {}
-
 session.proxies['http'] = 'socks5h://localhost:9050'
 session.proxies['https'] = 'socks5h://localhost:9050'
 
@@ -30,9 +29,9 @@ while True:
     if current_status != previous_status:
         print('STATUS CODE CHANGED: ', current_status)
         print('')
-        print('REPLY: ')
 
         if reply != previous_reply:
+            print('REPLY: ')
             print(reply.text)
        
 

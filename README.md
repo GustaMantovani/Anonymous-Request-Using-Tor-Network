@@ -26,5 +26,7 @@ Before you can run the script, you need to install the following components:
 
 Additionally, here is a tutorial on how to install Tor and Obfs4proxy: https://community.torproject.org/relay/setup/bridge/archlinux/. The torrc configuration file is also included in this GitHub repository and should be saved in '/etc/tor/'.
 
+To work around systemd hardening, you will also need to set 'NoNewPrivileges=no' in '/usr/lib/systemd/system/tor.service' and then run 'systemctl daemon-reload'. 
+
 Once you have installed all these components, you should be able to run the script and make anonymous requests through the Tor network.
 

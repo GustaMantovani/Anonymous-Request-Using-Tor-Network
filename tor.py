@@ -18,6 +18,7 @@ reply = ''
 while True:
 
     if current_status == 404:
+        print('not found')
         dest = str(input('target: '))
 
     previous_reply = reply

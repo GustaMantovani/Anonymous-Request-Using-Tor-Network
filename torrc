@@ -2,7 +2,7 @@ BridgeRelay 1
 DataDirectory /var/lib/tor
 User tor
 
-# Replace "TODO1" with a Tor port of your choice.  This port must be externally
+# Replace "12345" with a Tor port of your choice.  This port must be externally
 # reachable.  Avoid port 9001 because it's commonly associated with Tor and
 # censors may be scanning the Internet for this port.
 ORPort 12345
@@ -10,7 +10,7 @@ ORPort 12345
 ServerTransportPlugin obfs4 exec /usr/bin/obfs4proxy
 ClientTransportPlugin obfs4 exec /usr/local/bin/obfs4proxy
 
-# Replace "TODO2" with an obfs4 port of your choice.  This port must be
+# Replace "24578" with an obfs4 port of your choice.  This port must be
 # externally reachable and must be different from the one specified for ORPort.
 # Avoid port 9001 because it's commonly associated with
 # Tor and censors may be scanning the Internet for this port.

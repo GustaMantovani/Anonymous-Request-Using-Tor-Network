@@ -35,7 +35,7 @@ def requestAndDisplayResponses (session):
 def main():
     session = setSession()
     panel(session)
-    requestAndDisplayResponses (session)
+    requestAndDisplayResponses(session)
 
 main()
 
